@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 export const CartItemContainer = styled.div`
+width: 100%;
+height: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 
+
   p {
-    color: #222222;
+    color: #333;
   }
 `;
 

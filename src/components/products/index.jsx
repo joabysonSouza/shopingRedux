@@ -10,7 +10,10 @@ const Products = () => {
   return (
     <Styles.Container>
       {products.map((product) => (
-        <ProductItem product={product} />
+        <div key={product.id}>
+        
+          <ProductItem product={product} />{" "}
+        </div>
       ))}
     </Styles.Container>
   );
